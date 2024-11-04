@@ -42,14 +42,14 @@ export default function RootLayout({
     <html lang="en">
       <head>
       <meta name="google-site-verification" content="ogoHBE0u_RzzCoVyeBhCCdj1KttnVfaWFXPmZkd9cVs" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1H0FHP2GW2"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JK6Y3QFE4V"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-1H0FHP2GW2');
+              gtag('config', 'G-JK6Y3QFE4V');
             `,
           }}
         />
