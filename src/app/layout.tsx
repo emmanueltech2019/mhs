@@ -37,11 +37,22 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) { 
   return (
     <html lang="en">
       <head>
       <meta name="google-site-verification" content="ogoHBE0u_RzzCoVyeBhCCdj1KttnVfaWFXPmZkd9cVs" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1H0FHP2GW2"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-1H0FHP2GW2');
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
         <NavBar/>
