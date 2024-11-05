@@ -52,6 +52,7 @@ export default function RootLayout({
               gtag('config', 'G-JK6Y3QFE4V');
             `,
           }}
+          
         />
       </head>
       <body className={inter.className}>
